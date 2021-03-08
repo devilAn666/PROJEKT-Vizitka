@@ -3,16 +3,28 @@ html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
 body {
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;     
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;  
+    background-color: #b2bec3;   
+    margin: 0;
 }
 
 img {
     width: 150px;
     height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 6px 6px 10px grey;
+}
+
+.foto { 
+    position: absolute;
+    right: 365px;
+    top: 75px
 }
 
 h1 {
+    font-family: 'Nunito', sans-serif;
     font-size: 36px;
     font-weight: bold;
     color: #d63031;
@@ -22,15 +34,37 @@ h1 {
     box-sizing: border-box;
     width: 550px;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #b2bec3;
+    box-shadow: 6px 6px 10px grey;
     padding: 30px;
-    margin:auto;
+    margin-left:auto;
+    margin-right: auto;
     margin-top: 150px;
+    background-color: white;
 }
 
 p {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    font-variant: small-caps;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.facebook {
+    background-color:#3b5998;
+    font-variant: small-caps;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
 }
 
 
