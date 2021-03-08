@@ -15,12 +15,12 @@ img {
     border-radius: 50%;
     border: 3px solid white;
     box-shadow: 6px 6px 10px grey;
-}
+    }
 
-.foto { 
+.foto {
     position: absolute;
-    right: 365px;
-    top: 75px
+    left: 475px;
+    top: -75px;
 }
 
 h1 {
@@ -28,6 +28,7 @@ h1 {
     font-size: 36px;
     font-weight: bold;
     color: #d63031;
+    margin-top: 0;
 }
 
 .box {
@@ -36,10 +37,11 @@ h1 {
     border-radius: 10px;
     box-shadow: 6px 6px 10px grey;
     padding: 30px;
-    margin-left:auto;
-    margin-right: auto;
-    margin-top: 150px;
     background-color: white;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 
 p {
@@ -47,26 +49,38 @@ p {
     margin-bottom: 30px;
 }
 
-.twitter {
-    background-color: #1da1f2;
+.odkaz-box a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 0;
+    color: white;
+    font-family: 'Nunito', sans-serif;
     font-variant: small-caps;
+    /*
     font-size: 18px;
+    */
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
-    padding: 10px 0;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    margin-bottom: 5px; 
 }
 
 .facebook {
     background-color:#3b5998;
-    font-variant: small-caps;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 5px;
-    padding: 10px 0;
+    margin-top: 5px;
 }
 
+.twitter:hover {
+    background-color: #0b7bc1;
+}
+
+.facebook:hover {
+    background-color: #2b406e;
+}
 
 /*
 BARVY:
